@@ -1,1 +1,7 @@
-$('document').ready(console.log('perfecte'));
+$('document').ready(function(){
+    
+});
+
+function openCli(){
+    
+}
