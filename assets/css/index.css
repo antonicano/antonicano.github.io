@@ -1,0 +1,50 @@
+@keyframes changeColor {
+    0%   {color: black;}
+    100% {color: white;}
+  }
+
+html, body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+
+.parte-superior{
+    width: 100%;
+    height: 40%;
+    align-items: flex-end;
+    justify-content: center;
+    display: flex;
+}
+
+.parte-inferior{
+    width: 100%;
+    height: 60%;
+    align-items: flex-start;
+    justify-content: center;
+    display: flex;
+}
+
+.name{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 6rem;
+    animation-name: changeColor;
+    animation-duration: 4s;
+}
+
+.subtitle{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    animation-name: changeColor;
+    animation-duration: 4s;
+    animation-direction: alternate;
+}
